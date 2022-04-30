@@ -1,7 +1,6 @@
 import random
 import socket
 import threading
-import socket
 import argparse
 import sys
 from time import time as tt
@@ -83,6 +82,6 @@ for y in range(threads):
 		th.start()
 		th = threading.Thread(target = ddos2)
 		th.start()
-        else: 
+       else: 
                 th = threading.Thread(target = ddos3)
                 th.start()
